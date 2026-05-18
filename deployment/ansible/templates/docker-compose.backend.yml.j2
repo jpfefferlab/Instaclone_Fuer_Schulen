@@ -1,0 +1,32 @@
+services:
+  nginx:
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - backend_static:/var/www/static
+      - backend_media:/var/www/media
+      - ./information:/information:ro
+    depends_on:
+      - instaclone-backend
+      - instaclone-frontend
+
+  instaclone-backend:
+    image: idp-angelina-voggenreiter-instaclone-app-instaclone-backend:latest
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - backend_static:/var/www/static
+      - backend_media:/app/media
+      - ./scripts:/scripts
+
+  instaclone-frontend:
+    image: idp-angelina-voggenreiter-instaclone-app-instaclone-frontend:latest
+    restart: always
+
+volumes:
+  backend_static:
+  backend_media:

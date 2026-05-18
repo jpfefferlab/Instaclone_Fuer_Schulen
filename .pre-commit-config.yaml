@@ -1,0 +1,30 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+    - id: check-case-conflict
+    - id: check-merge-conflict
+    - id: check-toml
+    - id: check-yaml
+    - id: end-of-file-fixer
+      exclude: |
+          (?x)(
+              ^backend/static/|
+              ^backend/staticfiles/
+          )
+    - id: trailing-whitespace
+      exclude: |
+          (?x)(
+              ^backend/static/|
+              ^backend/staticfiles/
+          )
+
+- repo: https://github.com/astral-sh/uv-pre-commit
+  rev: 0.9.7
+  hooks:
+    - id: uv-lock
+      args: [--project, backend]
+      files: '^backend/.*.py'
+    - id: uv-export
+      files: '^backend/.*.py'
+      args: [--project, backend]

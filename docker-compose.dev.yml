@@ -1,0 +1,14 @@
+services:
+  db:
+    ports:
+      - "5432:5432"
+  instaclone-backend:
+    ports:
+      - "8000:8000"
+  instaclone-frontend:
+    ports:
+      - "3000:5173"
+  minio:
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # MinIO web console (http://localhost:9001)

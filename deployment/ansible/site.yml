@@ -1,0 +1,20 @@
+---
+# site.yml — master playbook
+# Run: ansible-playbook site.yml
+# Prerequisite: run generate_secrets.yml once first to create secrets.yml
+
+- name: Deploy database server (postgres + redis)
+  hosts: db
+  gather_facts: true
+  vars_files:
+    - secrets.yml
+  roles:
+    - db_deploy
+
+- name: Deploy backend servers (nginx + backend + frontend)
+  hosts: backend
+  gather_facts: true
+  vars_files:
+    - secrets.yml
+  roles:
+    - backend_deploy

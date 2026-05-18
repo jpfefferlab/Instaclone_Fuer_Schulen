@@ -1,0 +1,16 @@
+---
+- name: run commands on instaclone-backend-0
+  hosts: instaclone-backend-0
+  become: true
+  vars:
+    container_name: "app-instaclone-backend-1"
+  tasks:
+    - name: Execute command
+      community.docker.docker_container_exec:
+        container: "{{ container_name }}"
+        command: "{{ remote_command }}"
+      register: result
+
+    - name: Output
+      ansible.builtin.debug:
+        msg: "{{ result.stdout_lines }}"

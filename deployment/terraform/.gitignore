@@ -1,0 +1,8 @@
+# Downloaded Providers
+.terraform/providers/
+
+# terraform state (should be managed another way)
+terraform.tfstate*
+
+# tfvar secrets
+terraform.tfvars

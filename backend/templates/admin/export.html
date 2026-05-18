@@ -1,0 +1,78 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls %}
+{% load static %}
+
+
+{% block title %}
+{% endblock %}
+{% block extrastyle %}
+  <link rel="stylesheet" type="text/css" href="{% static 'export_admin.css' %}">
+{% endblock %}
+
+{% block content_title %}
+  <h1>{% trans "Export Data" %}</h1>
+{% endblock %}
+{% block content %}
+
+  <h2>{% trans "export_helper" %}</h2>
+
+  <a href="{% url 'export:export_users' %}" class="button">
+    {% trans "Export Users" %}
+  </a>
+
+  <a href="{% url 'export:export_profiles' %}" class="button">
+    {% trans "Export Profiles" %}
+  </a>
+
+  <a href="{% url 'export:export_followers' %}" class="button">
+    {% trans "Export Followers" %}
+  </a>
+
+  <a href="{% url 'export:export_posts' %}" class="button">
+    {% trans "Export Posts" %}
+  </a>
+
+  <a href="{% url 'export:export_ads' %}" class="button">
+    {% trans "Export Advertisements" %}
+  </a>
+
+  <a href="{% url 'export:export_stories' %}" class="button">
+    {% trans "Export Stories" %}
+  </a>
+
+  <a href="{% url 'export:export_comments' %}" class="button">
+    {% trans "Export Comments" %}
+  </a>
+
+  <a href="{% url 'export:export_likes' %}" class="button">
+    {% trans "Export Likes" %}
+  </a>
+
+  <a href="{% url 'export:export_sections' %}" class="button">
+    {% trans "Export Sections" %}
+  </a>
+
+  <a href="{% url 'export:export_exercises' %}" class="button">
+    {% trans "Export Exercises" %}
+  </a>
+
+  <a href="{% url 'export:export_tasks' %}" class="button">
+    {% trans "Export Tasks" %}
+  </a>
+
+  <a href="{% url 'export:export_multiple_choice_options' %}" class="button">
+    {% trans "Export Multiple Choice Options" %}
+  </a>
+
+  <a href="{% url 'export:export_points' %}" class="button">
+    {% trans "Export Points" %}
+  </a>
+
+  <a href="{% url 'export:export_features' %}" class="button">
+    {% trans "Export Features" %}
+  </a>
+
+  <a href="{% url 'export:export_user_features' %}" class="button">
+    {% trans "Export User Features" %}
+  </a>
+{% endblock %}

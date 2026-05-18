@@ -1,0 +1,814 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-11 13:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\InstaClone\settings.py:185
+msgid "German"
+msgstr "German"
+
+#: .\InstaClone\settings.py:186
+msgid "English"
+msgstr "English"
+
+#: .\export\apps.py:8
+msgid "export_singular"
+msgstr "Export"
+
+#: .\post\apps.py:8 .\post\models.py:48 .\post\models.py:106
+#: .\post\models.py:120 .\post\models.py:162
+msgid "post_singular"
+msgstr "Post"
+
+#: .\post\models.py:24 .\post\models.py:80 .\post\models.py:94
+#: .\post\models.py:107 .\post\models.py:121 .\post\models.py:149
+msgid "creator"
+msgstr "Creator"
+
+#: .\post\models.py:25
+msgid "post_content"
+msgstr "Post Content"
+
+#: .\post\models.py:26
+msgid "content_preview"
+msgstr "Post Content Preview"
+
+#: .\post\models.py:27
+msgid "caption"
+msgstr "Caption"
+
+#: .\post\models.py:29
+msgid "hashtags"
+msgstr "Hashtags"
+
+#: .\post\models.py:30
+msgid "update_date"
+msgstr "Updated on"
+
+#: .\post\models.py:31 .\post\models.py:82 .\post\models.py:108
+#: .\post\models.py:123 .\post\models.py:165 .\report\models.py:14
+#: .\user\models.py:24 .\user\models.py:39
+msgid "created_on"
+msgstr "created on"
+
+#: .\post\models.py:49
+msgid "post_plural"
+msgstr "Posts"
+
+#: .\post\models.py:54 .\user\models.py:22
+msgid "gender"
+msgstr "User Gender"
+
+#: .\post\models.py:55
+msgid "target_age_low"
+msgstr "lower target age"
+
+#: .\post\models.py:56
+msgid "target_age_high"
+msgstr "higher target age"
+
+#: .\post\models.py:57
+msgid "target_age_none"
+msgstr "no age targets"
+
+#: .\post\models.py:58 .\user\models.py:23
+msgid "interests"
+msgstr "interests"
+
+#: .\post\models.py:59
+msgid "no interests"
+msgstr "no interests"
+
+#: .\post\models.py:60
+msgid "keyword"
+msgstr "keyword"
+
+#: .\post\models.py:63
+msgid "advertisement_singular"
+msgstr "Advertisement"
+
+#: .\post\models.py:64
+msgid "advertisement_plural"
+msgstr "Advertisements"
+
+#: .\post\models.py:75
+msgid "image_tag_singular"
+msgstr "Image tag"
+
+#: .\post\models.py:76
+msgid "image_tag_plural"
+msgstr "Image tags"
+
+#: .\post\models.py:81
+msgid "story_content"
+msgstr "Story content"
+
+#: .\post\models.py:101
+msgid "story_view_singular"
+msgstr "Story view"
+
+#: .\post\models.py:102
+msgid "story_view_plural"
+msgstr "Story views"
+
+#: .\post\models.py:115
+msgid "like_singular"
+msgstr "Like"
+
+#: .\post\models.py:116
+msgid "like_plural"
+msgstr "Likes"
+
+#: .\post\models.py:122
+msgid "comment_content"
+msgstr "comment content"
+
+#: .\post\models.py:126
+msgid "comment_singular"
+msgstr "Comment"
+
+#: .\post\models.py:127
+msgid "comment_plural"
+msgstr "Comments"
+
+#: .\post\models.py:155
+msgid "target_user"
+msgstr "target user"
+
+#: .\post\models.py:164 .\workbook\models.py:97 .\workbook\models.py:174
+msgid "action_type"
+msgstr "action type"
+
+#: .\post\models.py:168
+msgid "action_singular"
+msgstr "Action"
+
+#: .\post\models.py:169
+msgid "action_plural"
+msgstr "Actions"
+
+#: .\report\apps.py:8 .\report\models.py:17
+msgid "report_singular"
+msgstr "Report"
+
+#: .\report\models.py:12
+msgid "reporter"
+msgstr "Reporter"
+
+#: .\report\models.py:13
+msgid "post"
+msgstr "post"
+
+#: .\report\models.py:18
+msgid "report_plural"
+msgstr "Reports"
+
+#: .\rewards\admin.py:43
+#, python-brace-format
+msgid "{updated_count} features unlocked."
+msgstr "{updated_count} features unlocked."
+
+#: .\rewards\admin.py:45
+msgid "Unlock selected features"
+msgstr "Unlock selected features"
+
+#: .\rewards\admin.py:50
+#, python-brace-format
+msgid "{updated_count} features locked."
+msgstr "{updated_count} features locked."
+
+#: .\rewards\admin.py:52
+msgid "Lock selected features"
+msgstr "Lock selected features"
+
+#: .\rewards\apps.py:7
+msgid "reward_plural"
+msgstr "Rewards"
+
+#: .\rewards\models.py:11 .\rewards\models.py:80 .\user\apps.py:8
+#: .\user\models.py:18 .\user\models.py:35 .\user\models.py:37
+#: .\user\models.py:57 .\workbook\models.py:138
+msgid "user_singular"
+msgstr "User"
+
+#: .\rewards\models.py:12
+msgid "points_balance"
+msgstr "Points balance"
+
+#: .\rewards\models.py:13
+msgid "points_earned"
+msgstr "Points earned"
+
+#: .\rewards\models.py:14
+msgid "points_spent"
+msgstr "Points spent"
+
+#: .\rewards\models.py:15
+msgid "tasks_completed"
+msgstr "Tasks completed"
+
+#: .\rewards\models.py:16
+msgid "total_tasks"
+msgstr "Total tasks"
+
+#: .\rewards\models.py:31
+msgid "Not enough points to spend."
+msgstr "Not enough points to spend."
+
+#: .\rewards\models.py:34 .\rewards\models.py:38 .\rewards\models.py:39
+#: .\workbook\models.py:89
+msgid "point_plural"
+msgstr "Points"
+
+#: .\rewards\models.py:49
+msgid "feature_name"
+msgstr "Feature name"
+
+#: .\rewards\models.py:50 .\workbook\models.py:86
+msgid "image_upload"
+msgstr "Image Upload"
+
+#: .\rewards\models.py:50
+msgid "upload_feature_image_help"
+msgstr "File Type: JPG, JPEG, PNG. Maximum Size: 5MB."
+
+#: .\rewards\models.py:51
+msgid "feature_image"
+msgstr "Feature image"
+
+#: .\rewards\models.py:52
+msgid "feature_cost"
+msgstr "Feature cost"
+
+#: .\rewards\models.py:58 .\workbook\models.py:104
+msgid "The uploaded image file size cannot exceed 5MB."
+msgstr "The uploaded image file size cannot exceed 5MB."
+
+#: .\rewards\models.py:74 .\rewards\models.py:81
+msgid "feature_singular"
+msgstr "Feature"
+
+#: .\rewards\models.py:75
+msgid "feature_plural"
+msgstr "Features"
+
+#: .\rewards\models.py:82
+msgid "is_unlocked"
+msgstr "Unlocked"
+
+#: .\rewards\models.py:83
+msgid "unlocked_at"
+msgstr "Unlocked at"
+
+#: .\rewards\models.py:90
+msgid "user_feature_singular"
+msgstr "User feature"
+
+#: .\rewards\models.py:91
+msgid "user_feature_plural"
+msgstr "User features"
+
+#: .\templates\admin\export.html:13
+msgid "Export Data"
+msgstr "Export Data"
+
+#: .\templates\admin\export.html:17
+msgid "export_helper"
+msgstr ""
+"Exported files are csv files with ';' seperator, ensure that no other "
+"seperator is used during import of the file"
+
+#: .\templates\admin\export.html:20
+msgid "Export Users"
+msgstr "Export Users"
+
+#: .\templates\admin\export.html:24
+msgid "Export Profiles"
+msgstr "Export Profiles"
+
+#: .\templates\admin\export.html:28
+msgid "Export Followers"
+msgstr "Export Followers"
+
+#: .\templates\admin\export.html:32
+msgid "Export Posts"
+msgstr "Export Posts"
+
+#: .\templates\admin\export.html:36
+msgid "Export Advertisements"
+msgstr "Export Advertisements"
+
+#: .\templates\admin\export.html:40
+msgid "Export Stories"
+msgstr "Export Stories"
+
+#: .\templates\admin\export.html:44
+msgid "Export Comments"
+msgstr "Export Comments"
+
+#: .\templates\admin\export.html:48
+msgid "Export Likes"
+msgstr "Export Likes"
+
+#: .\templates\admin\export.html:52
+msgid "Export Sections"
+msgstr "Export Sections"
+
+#: .\templates\admin\export.html:56
+msgid "Export Exercises"
+msgstr "Export Exercises"
+
+#: .\templates\admin\export.html:60
+msgid "Export Tasks"
+msgstr "Export Tasks"
+
+#: .\templates\admin\export.html:64
+msgid "Export Multiple Choice Options"
+msgstr "Export Multiple Choice Options"
+
+#: .\templates\admin\export.html:68
+msgid "Export Points"
+msgstr "Export Points"
+
+#: .\templates\admin\export.html:72
+msgid "Export Features"
+msgstr "Export Features"
+
+#: .\templates\admin\export.html:76
+msgid "Export User Features"
+msgstr "Export User Features"
+
+#: .\upload\apps.py:8
+msgid "upload_singular"
+msgstr "Upload"
+
+#: .\upload\models.py:9
+msgid "users_file"
+msgstr "users file"
+
+#: .\upload\models.py:11
+msgid "upload_users_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Username*, Password*, "
+"Name, Surname, Bio, Path_Profile_Picture"
+
+#: .\upload\models.py:12
+msgid "posts_file"
+msgstr "Posts file"
+
+#: .\upload\models.py:14
+msgid "upload_posts_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Username*, "
+"Path_Picture*, Caption*, Date* (YYYY-MM-DD HH:MM:SS)"
+
+#: .\upload\models.py:15
+msgid "ads_file"
+msgstr "Advertisements File"
+
+#: .\upload\models.py:17
+msgid "upload_ads_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Username*, "
+"Path_Picture*, Caption*, Date* (YYYY-MM-DD HH:MM:SS), URL* (https://example."
+"com), Gender* (Comma separated List),Lower Age Limit*, Higher Age Limit*, No "
+"Age*, Interests* (Comma separated List), No Interests*, Keyword"
+
+#: .\upload\models.py:18
+msgid "stories_file"
+msgstr "stories file"
+
+#: .\upload\models.py:20
+msgid "upload_stories_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Username*, "
+"Path_Picture*, Date* (YYYY-MM-DD HH:MM:SS)"
+
+#: .\upload\models.py:21
+msgid "likes_file"
+msgstr "likes file"
+
+#: .\upload\models.py:23
+msgid "upload_likes_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Username*, "
+"Liked_Username*, Post_Date* (YYYY-MM-DD HH:MM:SS), Like_Date* (YYYY-MM-DD HH:"
+"MM:SS)"
+
+#: .\upload\models.py:24
+msgid "comments_file"
+msgstr "comments file"
+
+#: .\upload\models.py:26
+msgid "upload_comments_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Username*, "
+"Commented_Username*, Post_Date* (YYYY-MM-DD HH:MM:SS), Comment_Date* (YYYY-"
+"MM-DD HH:MM:SS), Comment*"
+
+#: .\upload\models.py:27
+msgid "sections_file"
+msgstr "sections file"
+
+#: .\upload\models.py:29
+msgid "upload_sections_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Section Title*, Order"
+
+#: .\upload\models.py:30
+msgid "exercises_file"
+msgstr "exercises file"
+
+#: .\upload\models.py:32
+msgid "upload_exercises_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Section Title*, "
+"Exercise Title*, Order"
+
+#: .\upload\models.py:33
+msgid "tasks_file"
+msgstr "tasks file"
+
+#: .\upload\models.py:35
+msgid "upload_tasks_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Exercise Title*, Task "
+"Title*, Type*, Image, Text above the image, Text below the image, Points, "
+"Order, Minimum Answer Length (if Type TEXT_ANSWER), Correct Answer (if Type "
+"TEXT_ANSWER), Action Type (if Type INTERACTIVE), Target Count (if Type "
+"INTERACTIVE)"
+
+#: .\upload\models.py:36
+msgid "multipleChoiceOptions_file"
+msgstr "multiple choice options file"
+
+#: .\upload\models.py:38
+msgid "upload_multipleChoiceOptions_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Task Title*, Option "
+"Text*, Is Correct* (True or False)"
+
+#: .\upload\models.py:39
+msgid "points_file"
+msgstr "points file"
+
+#: .\upload\models.py:41
+msgid "upload_points_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Username*, Balance*, "
+"Earned*, Spent*, Tasks solved*, Total tasks*"
+
+#: .\upload\models.py:42
+msgid "features_file"
+msgstr "features file"
+
+#: .\upload\models.py:44
+msgid "upload_features_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Name*, Path to Image, "
+"Cost*"
+
+#: .\upload\models.py:45
+msgid "userFeatures_file"
+msgstr "user features file"
+
+#: .\upload\models.py:47
+msgid "upload_userFeatures_help"
+msgstr ""
+"File Type: CSV with semi-colon as separator; Format: Username*, Feature "
+"name*, Is unlocked* (True or False), Unlocked at (YYYY-MM-DD HH:MM:SS)"
+
+#: .\upload\models.py:48
+msgid "images_file"
+msgstr "images file"
+
+#: .\upload\models.py:50
+msgid "upload_images_help"
+msgstr ""
+"File Type: ZIP, Maximum Size: 100MB; Needs to be uploaded, if any Pictures "
+"are uploaded. All Image paths are relative to root folder, with file "
+"extension. Only .jpg pictures accepted (don't include .zip)."
+
+#: .\user\admin.py:38
+msgid "admin_user_picture"
+msgstr "user profile picture"
+
+#: .\user\models.py:19
+msgid "picture"
+msgstr "picture"
+
+#: .\user\models.py:20
+msgid "bio"
+msgstr "bio"
+
+#: .\user\models.py:21
+msgid "age"
+msgstr "age"
+
+#: .\user\models.py:30
+msgid "profile_singular"
+msgstr "Profile"
+
+#: .\user\models.py:31
+msgid "profile_plural"
+msgstr "Profiles"
+
+#: .\user\models.py:38
+msgid "notification_allowed"
+msgstr "notification allowed"
+
+#: .\user\models.py:46
+msgid "following_singular"
+msgstr "Follower"
+
+#: .\user\models.py:47
+msgid "following_plural"
+msgstr "Followers"
+
+#: .\user\models.py:58
+msgid "comments_allowed"
+msgstr "comments allowed"
+
+#: .\user\models.py:59
+msgid "allow_tags_from"
+msgstr "allows tags from"
+
+#: .\user\models.py:60
+msgid "newsfeed_alg"
+msgstr "newsfeed algorithm"
+
+#: .\user\models.py:66
+msgid "settings_singular"
+msgstr "Setting"
+
+#: .\user\models.py:67
+msgid "settings_plural"
+msgstr "Settings"
+
+#: .\user\models.py:72
+msgid "user"
+msgstr "User"
+
+#: .\user\models.py:73
+msgid "last_post_created_on"
+msgstr "Last post created at"
+
+#: .\user\models.py:74
+msgid "last_story_created_on"
+msgstr "Last story created at"
+
+#: .\workbook\admin.py:18
+msgid "multiple_choice_option_singular"
+msgstr "Multiple Choice Option"
+
+#: .\workbook\admin.py:19
+msgid "multiple_choice_option_plural"
+msgstr "Multiple Choice Options"
+
+#: .\workbook\admin.py:27 .\workbook\models.py:121 .\workbook\models.py:139
+msgid "task_singular"
+msgstr "Task"
+
+#: .\workbook\admin.py:28 .\workbook\models.py:122
+msgid "task_plural"
+msgstr "Tasks"
+
+#: .\workbook\admin.py:33 .\workbook\admin.py:36
+msgid "edit_task"
+msgstr "Edit Task"
+
+#: .\workbook\admin.py:50 .\workbook\models.py:55 .\workbook\models.py:82
+msgid "exercise_singular"
+msgstr "Exercise"
+
+#: .\workbook\admin.py:51 .\workbook\models.py:56
+msgid "exercise_plural"
+msgstr "Exercises"
+
+#: .\workbook\admin.py:56 .\workbook\admin.py:59
+msgid "edit_exercise"
+msgstr "Edit Exercises"
+
+#: .\workbook\admin.py:145
+#, python-brace-format
+msgid "{updated_count} submissions reviewed and marked as correct."
+msgstr "{updated_count} submissions reviewed and marked as correct."
+
+#: .\workbook\admin.py:147
+msgid "Mark selected submissions as reviewed and correct."
+msgstr "Mark selected submissions as reviewed and correct."
+
+#: .\workbook\apps.py:8
+msgid "workbook"
+msgstr "Workbook"
+
+#: .\workbook\models.py:32
+msgid "section_title"
+msgstr "Title"
+
+#: .\workbook\models.py:33 .\workbook\models.py:48 .\workbook\models.py:90
+msgid "order"
+msgstr "Order"
+
+#: .\workbook\models.py:33
+msgid ""
+"Position of the section inside the workbook. Reorder sections in the "
+"Sections admin."
+msgstr ""
+"Position of the section inside the workbook. Reorder sections in the "
+"Sections admin."
+
+#: .\workbook\models.py:39 .\workbook\models.py:46
+msgid "section_singular"
+msgstr "Section"
+
+#: .\workbook\models.py:40
+msgid "section_plural"
+msgstr "Sections"
+
+#: .\workbook\models.py:47
+msgid "exercise_title"
+msgstr "Title"
+
+#: .\workbook\models.py:48
+msgid ""
+"Position of the exercise inside the parent section. Reorder exercises by "
+"editing the section."
+msgstr ""
+"Position of the exercise inside the parent section. Reorder exercises by "
+"editing the section."
+
+#: .\workbook\models.py:82
+msgid ""
+"Assigns the task to an exercise. If you change the initially assigned "
+"exercise, make sure to check the correct ordering."
+msgstr ""
+"Assigns the task object to an exercise. If you change the initially assigned "
+"exercise, make sure to check the correct ordering."
+
+#: .\workbook\models.py:83
+msgid "task_title"
+msgstr "Title"
+
+#: .\workbook\models.py:84
+msgid "task_type"
+msgstr "Task type"
+
+#: .\workbook\models.py:84
+msgid "Choose the task type upon creation. Do NOT change this later!"
+msgstr "Choose the task type upon creation. Do NOT change this later!"
+
+#: .\workbook\models.py:85
+msgid "task_upper_text"
+msgstr "Upper text"
+
+#: .\workbook\models.py:85
+msgid "Set the text to be displayed above the (optional) task image."
+msgstr "Set the text to be displayed above the (optional) task image."
+
+#: .\workbook\models.py:86
+msgid "upload_task_image_help"
+msgstr "File Type: JPG, JPEG, PNG. Maximum Size: 5MB."
+
+#: .\workbook\models.py:87
+msgid "task_image"
+msgstr "Task image"
+
+#: .\workbook\models.py:88
+msgid "task_lower_text"
+msgstr "Lower text"
+
+#: .\workbook\models.py:88
+msgid "Set the text to be displayed under the (optional) task image."
+msgstr "Set the text to be displayed under the (optional) task image."
+
+#: .\workbook\models.py:89
+msgid "Points awarded to the student for successfully completing the task."
+msgstr "Points awarded to the student for successfully completing the task."
+
+#: .\workbook\models.py:90
+msgid "Position of the task inside the parent exercise."
+msgstr "Position of the task inside the parent exercise."
+
+#: .\workbook\models.py:93
+msgid "minimum_answer_length"
+msgstr "Minimum answer length"
+
+#: .\workbook\models.py:93
+msgid ""
+"The student has to type (at least) the specified amount of characters to "
+"make a submission."
+msgstr ""
+"The student has to type (at least) the specified amount of characters to "
+"make a submission."
+
+#: .\workbook\models.py:94
+msgid "correct_answer"
+msgstr "Correct answer"
+
+#: .\workbook\models.py:94
+msgid ""
+"Set a correct answer for this task. The student have to submit the exact "
+"same answer to complete the task. If set, the correction is done "
+"automatically."
+msgstr ""
+"Set the correct answer for this task. The student has to submit the exact "
+"same answer to complete the task. If set, the correction is done "
+"automatically."
+
+#: .\workbook\models.py:97
+msgid "Specify the action the student has to perform."
+msgstr "Specify the action the student has to perform."
+
+#: .\workbook\models.py:98 .\workbook\models.py:175
+msgid "target_action_count"
+msgstr "Target action count"
+
+#: .\workbook\models.py:98
+msgid ""
+"The student has to perform the action this many times to complete the task."
+msgstr ""
+"The student has to perform the action this many times to complete the task."
+
+#: .\workbook\models.py:128
+msgid "option_singular"
+msgstr "Option"
+
+#: .\workbook\models.py:129
+msgid "is_correct"
+msgstr "Correct"
+
+#: .\workbook\models.py:140
+msgid "submitted_at"
+msgstr "Submitted at"
+
+#: .\workbook\models.py:141
+msgid "submission_reviewed"
+msgstr "Reviewed"
+
+#: .\workbook\models.py:141
+msgid "Tick this box after you have reviewed the submission."
+msgstr "Tick this box after you have reviewed the submission."
+
+#: .\workbook\models.py:142
+msgid "submission_feedback"
+msgstr "Feedback"
+
+#: .\workbook\models.py:142
+msgid "Optional feedback for the student."
+msgstr "Optional feedback for the student."
+
+#: .\workbook\models.py:143
+msgid "submission_correct"
+msgstr "Correct"
+
+#: .\workbook\models.py:143
+msgid "Tick this box if the submission is correct."
+msgstr "Tick this box if the submission is correct."
+
+#: .\workbook\models.py:144
+msgid "awarded_points"
+msgstr "Awarded points"
+
+#: .\workbook\models.py:144
+msgid ""
+"The points earned by the student for this submission. It is set once the "
+"submission is marked as correct and the student has claimed the points."
+msgstr ""
+"The points earned by the student for this submission. It is set once the "
+"submission is marked as correct and the student has claimed the points."
+
+#: .\workbook\models.py:148
+msgid "submission_singular"
+msgstr "Submission"
+
+#: .\workbook\models.py:149
+msgid "submission_plural"
+msgstr "Submissions"
+
+#: .\workbook\models.py:153
+msgid "selected_choices"
+msgstr "Selected choices"
+
+#: .\workbook\models.py:158
+msgid "submitted_answer"
+msgstr "Submitted answer"
+
+#: .\workbook\models.py:176
+msgid "current_action_count"
+msgstr "Current action count"

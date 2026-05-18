@@ -1,0 +1,107 @@
+---
+- name: Install required packages
+  ansible.builtin.apt:
+    name:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - gnupg
+      - python3-pip
+    state: present
+    update_cache: true
+
+- name: Add Docker GPG key
+  ansible.builtin.get_url:
+    url: https://download.docker.com/linux/debian/gpg
+    dest: /etc/apt/keyrings/docker.asc
+    mode: "0644"
+
+- name: Add Docker apt repository
+  ansible.builtin.apt_repository:
+    repo: >-
+      deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc]
+      https://download.docker.com/linux/debian
+      {{ ansible_distribution_release }} stable
+    filename: docker
+    state: present
+
+- name: Install Docker Engine and Compose plugin
+  ansible.builtin.apt:
+    name:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+      - docker-compose-plugin
+    state: present
+    update_cache: true
+
+- name: Ensure Docker service is running
+  ansible.builtin.systemd:
+    name: docker
+    state: started
+    enabled: true
+
+- name: Create app directory
+  ansible.builtin.file:
+    path: "{{ app_dir }}"
+    state: directory
+    mode: "0750"
+
+- name: Copy backend image tarball to remote
+  ansible.builtin.copy:
+    src: "{{ playbook_dir }}/instaclone_backend.tar"
+    dest: "{{ app_dir }}/instaclone_backend.tar"
+    mode: "0640"
+
+- name: Load backend Docker image
+  ansible.builtin.command:
+    cmd: docker load -i {{ app_dir }}/instaclone_backend.tar
+  register: backend_load
+  changed_when: "'Loaded image' in backend_load.stdout"
+
+- name: Copy frontend image tarball to remote
+  ansible.builtin.copy:
+    src: "{{ playbook_dir }}/instaclone_frontend.tar"
+    dest: "{{ app_dir }}/instaclone_frontend.tar"
+    mode: "0640"
+
+- name: Load frontend Docker image
+  ansible.builtin.command:
+    cmd: docker load -i {{ app_dir }}/instaclone_frontend.tar
+  register: frontend_load
+  changed_when: "'Loaded image' in frontend_load.stdout"
+
+- name: Deploy docker-compose.backend.yml
+  ansible.builtin.template:
+    src: "{{ playbook_dir }}/templates/docker-compose.backend.yml.j2"
+    dest: "{{ app_dir }}/docker-compose.yml"
+    mode: "0640"
+
+- name: Copy scripts directory to remote
+  ansible.builtin.copy:
+    src: "{{ playbook_dir }}/../../scripts/"
+    dest: "{{ app_dir }}/scripts/"
+    mode: "0755"
+
+- name: Copy information site to remote
+  ansible.builtin.copy:
+    src: "{{ playbook_dir }}/../../information/"
+    dest: "{{ app_dir }}/information/"
+    mode: "0644"
+
+- name: Deploy nginx.conf
+  ansible.builtin.template:
+    src: "{{ playbook_dir }}/templates/nginx.conf.j2"
+    dest: "{{ app_dir }}/nginx.conf"
+    mode: "0644"
+
+- name: Template backend .env file
+  ansible.builtin.template:
+    src: backend.env.j2
+    dest: "{{ app_dir }}/.env"
+    mode: "0600"
+
+- name: Start backend stack (nginx + backend + frontend)
+  community.docker.docker_compose_v2:
+    project_src: "{{ app_dir }}"
+    state: present

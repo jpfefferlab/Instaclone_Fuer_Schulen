@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Usage ./dex <command to run on backend container>
+
+COMMAND="$*"
+
+if [ -z "$COMMAND" ]; then
+  echo "Usage ./dex <command to run on backend container>"
+  exit 1
+fi
+
+ansible-playbook commands.yml \
+  -e "remote_command='$COMMAND'" \
+  | grep -A 100 "msg\":" | sed 's/\"msg\": //g' | sed 's/\"//g'

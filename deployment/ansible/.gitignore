@@ -1,0 +1,8 @@
+# Generated secrets — never commit
+secrets.yml
+
+# Ansible retry files
+*.retry
+
+# Generated inventory (written by Terraform)
+inventory.ini

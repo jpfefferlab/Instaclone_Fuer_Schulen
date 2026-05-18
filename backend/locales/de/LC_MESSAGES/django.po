@@ -1,0 +1,826 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-11 13:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\InstaClone\settings.py:185
+msgid "German"
+msgstr "Deutsch"
+
+#: .\InstaClone\settings.py:186
+msgid "English"
+msgstr "Englisch"
+
+#: .\export\apps.py:8
+msgid "export_singular"
+msgstr "Exportieren"
+
+#: .\post\apps.py:8 .\post\models.py:48 .\post\models.py:106
+#: .\post\models.py:120 .\post\models.py:162
+msgid "post_singular"
+msgstr "Beitrag"
+
+#: .\post\models.py:24 .\post\models.py:80 .\post\models.py:94
+#: .\post\models.py:107 .\post\models.py:121 .\post\models.py:149
+msgid "creator"
+msgstr "Ersteller"
+
+#: .\post\models.py:25
+msgid "post_content"
+msgstr "Beitragsinhalt"
+
+#: .\post\models.py:26
+msgid "content_preview"
+msgstr "Beitragsinhalt Vorschau"
+
+#: .\post\models.py:27
+msgid "caption"
+msgstr "Bildunterschrift"
+
+#: .\post\models.py:29
+msgid "hashtags"
+msgstr "Hashtags"
+
+#: .\post\models.py:30
+msgid "update_date"
+msgstr "Verändert am"
+
+#: .\post\models.py:31 .\post\models.py:82 .\post\models.py:108
+#: .\post\models.py:123 .\post\models.py:165 .\report\models.py:14
+#: .\user\models.py:24 .\user\models.py:39
+msgid "created_on"
+msgstr "Erstellt am"
+
+#: .\post\models.py:49
+msgid "post_plural"
+msgstr "Beiträge"
+
+#: .\post\models.py:54 .\user\models.py:22
+msgid "gender"
+msgstr "Nutzer Geschlecht"
+
+#: .\post\models.py:55
+msgid "target_age_low"
+msgstr "unteres Zielalter"
+
+#: .\post\models.py:56
+msgid "target_age_high"
+msgstr "oberes Zielalter"
+
+#: .\post\models.py:57
+msgid "target_age_none"
+msgstr "keine Altersangabe"
+
+#: .\post\models.py:58 .\user\models.py:23
+msgid "interests"
+msgstr "Interessen"
+
+#: .\post\models.py:59
+msgid "no interests"
+msgstr "keine Interessen"
+
+#: .\post\models.py:60
+msgid "keyword"
+msgstr "Stichwort"
+
+#: .\post\models.py:63
+msgid "advertisement_singular"
+msgstr "Werbung"
+
+#: .\post\models.py:64
+msgid "advertisement_plural"
+msgstr "Werbungen"
+
+#: .\post\models.py:75
+msgid "image_tag_singular"
+msgstr "Tag"
+
+#: .\post\models.py:76
+msgid "image_tag_plural"
+msgstr "Tags"
+
+#: .\post\models.py:81
+msgid "story_content"
+msgstr "Story Inhalt"
+
+#: .\post\models.py:101
+msgid "story_view_singular"
+msgstr "Story Ansicht"
+
+#: .\post\models.py:102
+msgid "story_view_plural"
+msgstr "Story Ansichten"
+
+#: .\post\models.py:115
+msgid "like_singular"
+msgstr "Gefällt"
+
+#: .\post\models.py:116
+msgid "like_plural"
+msgstr "Gefallen"
+
+#: .\post\models.py:122
+msgid "comment_content"
+msgstr "Kommentar Inhalt"
+
+#: .\post\models.py:126
+msgid "comment_singular"
+msgstr "Kommentar"
+
+#: .\post\models.py:127
+msgid "comment_plural"
+msgstr "Kommentare"
+
+#: .\post\models.py:155
+msgid "target_user"
+msgstr "Zielbenutzer"
+
+#: .\post\models.py:164 .\workbook\models.py:97 .\workbook\models.py:174
+msgid "action_type"
+msgstr "Aktionstyp"
+
+#: .\post\models.py:168
+msgid "action_singular"
+msgstr "Aktion"
+
+#: .\post\models.py:169
+msgid "action_plural"
+msgstr "Aktionen"
+
+#: .\report\apps.py:8 .\report\models.py:17
+msgid "report_singular"
+msgstr "Meldung"
+
+#: .\report\models.py:12
+msgid "reporter"
+msgstr "Melder"
+
+#: .\report\models.py:13
+msgid "post"
+msgstr "Beitrag"
+
+#: .\report\models.py:18
+msgid "report_plural"
+msgstr "Meldungen"
+
+#: .\rewards\admin.py:43
+#, python-brace-format
+msgid "{updated_count} features unlocked."
+msgstr "{updated_count} Funktionen wurden freigeschaltet."
+
+#: .\rewards\admin.py:45
+msgid "Unlock selected features"
+msgstr "Ausgewählte Funktionen freischalten"
+
+#: .\rewards\admin.py:50
+#, python-brace-format
+msgid "{updated_count} features locked."
+msgstr "{updated_count} Funktionen wurden gesperrt."
+
+#: .\rewards\admin.py:52
+msgid "Lock selected features"
+msgstr "Ausgewählte Funktionen sperren"
+
+#: .\rewards\apps.py:7
+msgid "reward_plural"
+msgstr "Belohnungen"
+
+#: .\rewards\models.py:11 .\rewards\models.py:80 .\user\apps.py:8
+#: .\user\models.py:18 .\user\models.py:35 .\user\models.py:37
+#: .\user\models.py:57 .\workbook\models.py:138
+msgid "user_singular"
+msgstr "Benutzer"
+
+#: .\rewards\models.py:12
+msgid "points_balance"
+msgstr "Punktestand"
+
+#: .\rewards\models.py:13
+msgid "points_earned"
+msgstr "Punkte verdient"
+
+#: .\rewards\models.py:14
+msgid "points_spent"
+msgstr "Punkte ausgegeben"
+
+#: .\rewards\models.py:15
+msgid "tasks_completed"
+msgstr "Aufgaben abgeschlossen"
+
+#: .\rewards\models.py:16
+msgid "total_tasks"
+msgstr "Aufgaben insgesamt"
+
+#: .\rewards\models.py:31
+msgid "Not enough points to spend."
+msgstr "Nicht genug Punkte."
+
+#: .\rewards\models.py:34 .\rewards\models.py:38 .\rewards\models.py:39
+#: .\workbook\models.py:89
+msgid "point_plural"
+msgstr "Punkte"
+
+#: .\rewards\models.py:49
+msgid "feature_name"
+msgstr "Funktion Name"
+
+#: .\rewards\models.py:50 .\workbook\models.py:86
+msgid "image_upload"
+msgstr "Bild hochladen"
+
+#: .\rewards\models.py:50
+msgid "upload_feature_image_help"
+msgstr "Datei Typ: JPG, JPEG, PNG. Maximale Größe: 5MB."
+
+#: .\rewards\models.py:51
+msgid "feature_image"
+msgstr "Funktion Bild"
+
+#: .\rewards\models.py:52
+msgid "feature_cost"
+msgstr "Funktion Kosten"
+
+#: .\rewards\models.py:58 .\workbook\models.py:104
+msgid "The uploaded image file size cannot exceed 5MB."
+msgstr "Das hochgeladene Bild darf maximal 5MB groß sein."
+
+#: .\rewards\models.py:74 .\rewards\models.py:81
+msgid "feature_singular"
+msgstr "Globale Funktion"
+
+#: .\rewards\models.py:75
+msgid "feature_plural"
+msgstr "Globale Funktionen"
+
+#: .\rewards\models.py:82
+msgid "is_unlocked"
+msgstr "Freigeschaltet"
+
+#: .\rewards\models.py:83
+msgid "unlocked_at"
+msgstr "Freigeschaltet am"
+
+#: .\rewards\models.py:90
+msgid "user_feature_singular"
+msgstr "Benutzerfunktion"
+
+#: .\rewards\models.py:91
+msgid "user_feature_plural"
+msgstr "Benutzerfunktionen"
+
+#: .\templates\admin\export.html:13
+msgid "Export Data"
+msgstr "Datenexport"
+
+#: .\templates\admin\export.html:17
+msgid "export_helper"
+msgstr ""
+"Exportierte Dateien sind csv Dateien mit Seperator ';', es muss "
+"sichergestellt werden das dieser als einziger Seperator beim Import genutzt "
+"wird"
+
+#: .\templates\admin\export.html:20
+msgid "Export Users"
+msgstr "Benutzer Exportieren"
+
+#: .\templates\admin\export.html:24
+msgid "Export Profiles"
+msgstr "Profile Exportieren"
+
+#: .\templates\admin\export.html:28
+msgid "Export Followers"
+msgstr "Folgende Exportieren"
+
+#: .\templates\admin\export.html:32
+msgid "Export Posts"
+msgstr "Beiträge Exportieren"
+
+#: .\templates\admin\export.html:36
+msgid "Export Advertisements"
+msgstr "Werbungen Exportieren"
+
+#: .\templates\admin\export.html:40
+msgid "Export Stories"
+msgstr "Stories Exportieren"
+
+#: .\templates\admin\export.html:44
+msgid "Export Comments"
+msgstr "Kommentare Exportieren"
+
+#: .\templates\admin\export.html:48
+msgid "Export Likes"
+msgstr "Likes Exportieren"
+
+#: .\templates\admin\export.html:52
+msgid "Export Sections"
+msgstr "Lektionen Exportieren"
+
+#: .\templates\admin\export.html:56
+msgid "Export Exercises"
+msgstr "Übungen Exportieren"
+
+#: .\templates\admin\export.html:60
+msgid "Export Tasks"
+msgstr "Aufgaben Exportieren"
+
+#: .\templates\admin\export.html:64
+msgid "Export Multiple Choice Options"
+msgstr "Multiple Choice Optionen Exportieren"
+
+#: .\templates\admin\export.html:68
+msgid "Export Points"
+msgstr "Punkte Exportieren"
+
+#: .\templates\admin\export.html:72
+msgid "Export Features"
+msgstr "Funktionen Exportieren"
+
+#: .\templates\admin\export.html:76
+msgid "Export User Features"
+msgstr "Benutzerfunktionen Exportieren"
+
+#: .\upload\apps.py:8
+msgid "upload_singular"
+msgstr "Hochladen"
+
+#: .\upload\models.py:9
+msgid "users_file"
+msgstr "Benutzer Datei"
+
+#: .\upload\models.py:11
+msgid "upload_users_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Benutzername*, "
+"Passwort*, Vorname, Nachname, Bio, Pfad zum Profilbild mit Dateiendung"
+
+#: .\upload\models.py:12
+msgid "posts_file"
+msgstr "Beiträge Datei"
+
+#: .\upload\models.py:14
+msgid "upload_posts_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Benutzername*, Pfad "
+"zum Bild mit Dateiendung*, Bildunterschrift*, Datum* (YYYY-MM-DD HH:MM:SS)"
+
+#: .\upload\models.py:15
+msgid "ads_file"
+msgstr "Werbungen Datei"
+
+#: .\upload\models.py:17
+msgid "upload_ads_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Benutzername*, Pfad "
+"zum Bild mit Dateiendung*, Bildunterschrift*, Datum* (YYYY-MM-DD HH:MM:SS), "
+"URL* (https://example.com), Gender* (Komma Liste), Unteres Zielalter, Oberes "
+"Zielalter, Kein Alter, Interessen(Komma Liste), Keine Interessen, Bio Wort"
+
+#: .\upload\models.py:18
+msgid "stories_file"
+msgstr "Story Datei"
+
+#: .\upload\models.py:20
+msgid "upload_stories_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Benutzername*, Pfad "
+"zum Bild mit Dateiendung*, Datum* (YYYY-MM-DD HH:MM:SS)"
+
+#: .\upload\models.py:21
+msgid "likes_file"
+msgstr "Gefällt Datei"
+
+#: .\upload\models.py:23
+msgid "upload_likes_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Benutzername*, "
+"Benutzername Gefällt*, Beitragsdatum* (YYYY-MM-DD HH:MM:SS), Gefälltdatum* "
+"(YYYY-MM-DD HH:MM:SS)"
+
+#: .\upload\models.py:24
+msgid "comments_file"
+msgstr "Kommentar Datei"
+
+#: .\upload\models.py:26
+msgid "upload_comments_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Benutzername*, "
+"Benutzername Kommentar*, Beitragsdatum* (YYYY-MM-DD HH:MM:SS), "
+"Kommantardatum* (YYYY-MM-DD HH:MM:SS), Kommentar*"
+
+#: .\upload\models.py:27
+msgid "sections_file"
+msgstr "Lektionen Datei"
+
+#: .\upload\models.py:29
+msgid "upload_sections_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Titel*, Reihenfolge"
+
+#: .\upload\models.py:30
+msgid "exercises_file"
+msgstr "Übungen Datei"
+
+#: .\upload\models.py:32
+msgid "upload_exercises_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Lektionstitel*, "
+"Übungstitel*, Reihenfolge"
+
+#: .\upload\models.py:33
+msgid "tasks_file"
+msgstr "Aufgaben Datei"
+
+#: .\upload\models.py:35
+msgid "upload_tasks_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Übungstitel*, "
+"Aufgabentitel*, Aufgabentyp*, Pfad zum Bild mit Dateiendung, Text oberhalb "
+"des Bildes, Text unterhalb des Bildes, Punkte, Reihenfolge, Minimale "
+"Antwortlänge (bei Aufgabentyp TEXT_ANSWER), Richtige Antwort (bei "
+"Aufgabentyp TEXT_ANSWER), Aktionstyp (bei Aufgabentyp INTERACTIVE), Anzahl "
+"Aktionen (bei Aufgabentyp INTERACTIVE)"
+
+#: .\upload\models.py:36
+msgid "multipleChoiceOptions_file"
+msgstr "Multiple Choice Optionen Datei"
+
+#: .\upload\models.py:38
+msgid "upload_multipleChoiceOptions_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Aufgabentitel*, "
+"Optionstext*, Korrekt* (True oder False)"
+
+#: .\upload\models.py:39
+msgid "points_file"
+msgstr "Punkte Datei"
+
+#: .\upload\models.py:41
+msgid "upload_points_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Benutzername*, "
+"Punktestand*, Punkte verdient*, Punkte ausgegeben*, Aufgaben gelöst*, "
+"Aufgaben insgesamt*"
+
+#: .\upload\models.py:42
+msgid "features_file"
+msgstr "Funktionen Datei"
+
+#: .\upload\models.py:44
+msgid "upload_features_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Name*, Pfad zum Bild "
+"mit Dateiendung, Kosten für die Freischaltung*"
+
+#: .\upload\models.py:45
+msgid "userFeatures_file"
+msgstr "Benutzerfunktionen Datei"
+
+#: .\upload\models.py:47
+msgid "upload_userFeatures_help"
+msgstr ""
+"Datei Typ: CSV mit Strichpunkt als Separator; Format: Benutzername*, "
+"Funktionsname*, Freigeschaltet* (True oder False), Datum der Freischaltung* "
+"(YYYY-MM-DD HH:MM:SS)"
+
+#: .\upload\models.py:48
+msgid "images_file"
+msgstr "Bilder Datei"
+
+#: .\upload\models.py:50
+msgid "upload_images_help"
+msgstr ""
+"Datei Typ: ZIP Maximale Größe: 100MB; Muss hochgeladen werden wenn Bilder "
+"hochgeladen werden. Alle Pfade sind relativ zum Ursprungsordner, nur .jpg "
+"Bilder werden akzeptiert (.zip nicht beachten)."
+
+#: .\user\admin.py:38
+msgid "admin_user_picture"
+msgstr "Profilbild"
+
+#: .\user\models.py:19
+msgid "picture"
+msgstr "Bild"
+
+#: .\user\models.py:20
+msgid "bio"
+msgstr "Bio"
+
+#: .\user\models.py:21
+msgid "age"
+msgstr "Alter"
+
+#: .\user\models.py:30
+msgid "profile_singular"
+msgstr "Profil"
+
+#: .\user\models.py:31
+msgid "profile_plural"
+msgstr "Profile"
+
+#: .\user\models.py:38
+msgid "notification_allowed"
+msgstr "Benachrichtigung erlaubt"
+
+#: .\user\models.py:46
+msgid "following_singular"
+msgstr "Abonnent"
+
+#: .\user\models.py:47
+msgid "following_plural"
+msgstr "Abonnenten"
+
+#: .\user\models.py:58
+msgid "comments_allowed"
+msgstr "Kommentare erlaubt"
+
+#: .\user\models.py:59
+msgid "allow_tags_from"
+msgstr "Tags erlaubt von"
+
+#: .\user\models.py:60
+msgid "newsfeed_alg"
+msgstr "Newsfeed Algorithmus"
+
+#: .\user\models.py:66
+msgid "settings_singular"
+msgstr "Einstellung"
+
+#: .\user\models.py:67
+msgid "settings_plural"
+msgstr "Einstellungen"
+
+#: .\user\models.py:72
+msgid "user"
+msgstr "Benutzer"
+
+#: .\user\models.py:73
+msgid "last_post_created_on"
+msgstr "Letzer Beitrag erstellt am"
+
+#: .\user\models.py:74
+msgid "last_story_created_on"
+msgstr "Letze Story erstellt am"
+
+#: .\workbook\admin.py:18
+msgid "multiple_choice_option_singular"
+msgstr "Multiple Choice Option"
+
+#: .\workbook\admin.py:19
+msgid "multiple_choice_option_plural"
+msgstr "Multiple Choice Optionen"
+
+#: .\workbook\admin.py:27 .\workbook\models.py:121 .\workbook\models.py:139
+msgid "task_singular"
+msgstr "Aufgabe"
+
+#: .\workbook\admin.py:28 .\workbook\models.py:122
+msgid "task_plural"
+msgstr "Aufgaben"
+
+#: .\workbook\admin.py:33 .\workbook\admin.py:36
+msgid "edit_task"
+msgstr "Aufgabe Bearbeiten"
+
+#: .\workbook\admin.py:50 .\workbook\models.py:55 .\workbook\models.py:82
+msgid "exercise_singular"
+msgstr "Übung"
+
+#: .\workbook\admin.py:51 .\workbook\models.py:56
+msgid "exercise_plural"
+msgstr "Übungen"
+
+#: .\workbook\admin.py:56 .\workbook\admin.py:59
+msgid "edit_exercise"
+msgstr "Übung Bearbeiten"
+
+#: .\workbook\admin.py:145
+#, python-brace-format
+msgid "{updated_count} submissions reviewed and marked as correct."
+msgstr "{updated_count} Abgaben wurden überprüft und als korrekt markiert."
+
+#: .\workbook\admin.py:147
+msgid "Mark selected submissions as reviewed and correct."
+msgstr "Die ausgewählten Abgaben als überprüft und korrekt markieren."
+
+#: .\workbook\apps.py:8
+msgid "workbook"
+msgstr "Arbeitsheft"
+
+#: .\workbook\models.py:32
+msgid "section_title"
+msgstr "Titel"
+
+#: .\workbook\models.py:33 .\workbook\models.py:48 .\workbook\models.py:90
+msgid "order"
+msgstr "Reihenfolge"
+
+#: .\workbook\models.py:33
+msgid ""
+"Position of the section inside the workbook. Reorder sections in the "
+"Sections admin."
+msgstr ""
+"Die Position der Lektion im Arbeitsheft. Sortiere Lektionen in der Lektion "
+"Ansicht um."
+
+#: .\workbook\models.py:39 .\workbook\models.py:46
+msgid "section_singular"
+msgstr "Lektion"
+
+#: .\workbook\models.py:40
+msgid "section_plural"
+msgstr "Lektionen"
+
+#: .\workbook\models.py:47
+msgid "exercise_title"
+msgstr "Titel"
+
+#: .\workbook\models.py:48
+msgid ""
+"Position of the exercise inside the parent section. Reorder exercises by "
+"editing the section."
+msgstr ""
+"Die Position der Übung innerhalb der Lektion. Bearbeite die Lektion um die "
+"Übungen neu zu sortieren."
+
+#: .\workbook\models.py:82
+msgid ""
+"Assigns the task to an exercise. If you change the initially assigned "
+"exercise, make sure to check the correct ordering."
+msgstr ""
+"Weise die Aufgabe einer Übung zu. Wenn du die zugewiesene Übung änderst, "
+"stelle sicher, dass die Reihenfolge der Afugaben innerhalb der Übung korrekt "
+"ist."
+
+#: .\workbook\models.py:83
+msgid "task_title"
+msgstr "Aufgabentitel"
+
+#: .\workbook\models.py:84
+msgid "task_type"
+msgstr "Aufgabentyp"
+
+#: .\workbook\models.py:84
+msgid "Choose the task type upon creation. Do NOT change this later!"
+msgstr ""
+"Wähle den Aufgabentyp bei der Erstellung der Aufgabe. Dieser soll später "
+"nicht verändert werden!"
+
+#: .\workbook\models.py:85
+msgid "task_upper_text"
+msgstr "Oberer Text"
+
+#: .\workbook\models.py:85
+msgid "Set the text to be displayed above the (optional) task image."
+msgstr "Angezeigter Text über dem (optionalen) Aufgabenbild."
+
+#: .\workbook\models.py:86
+msgid "upload_task_image_help"
+msgstr "Datei Typ: JPG, JPEG, PNG. Maximale Größe: 5MB."
+
+#: .\workbook\models.py:87
+msgid "task_image"
+msgstr "Bild"
+
+#: .\workbook\models.py:88
+msgid "task_lower_text"
+msgstr "Unterer Text"
+
+#: .\workbook\models.py:88
+msgid "Set the text to be displayed under the (optional) task image."
+msgstr "Angezeigter Text unter dem (optionalen) Aufgabenbild."
+
+#: .\workbook\models.py:89
+msgid "Points awarded to the student for successfully completing the task."
+msgstr ""
+"Punkte, die der Schüler oder die Schülerin für das erfolgreiche Abschließen "
+"der Aufgabe erhält."
+
+#: .\workbook\models.py:90
+msgid "Position of the task inside the parent exercise."
+msgstr "Position der Aufgabe innerhalb der Übung."
+
+#: .\workbook\models.py:93
+msgid "minimum_answer_length"
+msgstr "Mindestlänge der Antwort"
+
+#: .\workbook\models.py:93
+msgid ""
+"The student has to type (at least) the specified amount of characters to "
+"make a submission."
+msgstr ""
+"Der Schüler oder die Schülerin muss (mindestens) die angegebene Anzahl an "
+"Zeichen eingeben, um eine Abgabe zu machen."
+
+#: .\workbook\models.py:94
+msgid "correct_answer"
+msgstr "korrekte Antwort"
+
+#: .\workbook\models.py:94
+msgid ""
+"Set a correct answer for this task. The student have to submit the exact "
+"same answer to complete the task. If set, the correction is done "
+"automatically."
+msgstr ""
+"Setze die korrekte Antwort für diese Aufgabe. Um die Aufgabe abzuschließen, "
+"muss der Schüler oder die Schülerin die exakt gleiche Antwort eingeben. Dies "
+"wird automatisch korrigiert."
+
+#: .\workbook\models.py:97
+msgid "Specify the action the student has to perform."
+msgstr ""
+"Lege fest, welche Aktion der Schüler oder die Schülerin ausführen muss."
+
+#: .\workbook\models.py:98 .\workbook\models.py:175
+msgid "target_action_count"
+msgstr "Wiederholungsanzahl der Aktion"
+
+#: .\workbook\models.py:98
+msgid ""
+"The student has to perform the action this many times to complete the task."
+msgstr ""
+"Der Schüler oder die Schülerin muss die Aktion so oft ausführen, um die "
+"Aufgabe abzuschließen."
+
+#: .\workbook\models.py:128
+msgid "option_singular"
+msgstr "Option"
+
+#: .\workbook\models.py:129
+msgid "is_correct"
+msgstr "Korrekt"
+
+#: .\workbook\models.py:140
+msgid "submitted_at"
+msgstr "Abgegeben am"
+
+#: .\workbook\models.py:141
+msgid "submission_reviewed"
+msgstr "Überprüft"
+
+#: .\workbook\models.py:141
+msgid "Tick this box after you have reviewed the submission."
+msgstr "Setze diesen Haken, nachdem du die Abgabe überprüft hast."
+
+#: .\workbook\models.py:142
+msgid "submission_feedback"
+msgstr "Rückmeldung"
+
+#: .\workbook\models.py:142
+msgid "Optional feedback for the student."
+msgstr "Optionale Rückmeldung an den Schüler oder an die Schülerin."
+
+#: .\workbook\models.py:143
+msgid "submission_correct"
+msgstr "Korrekt"
+
+#: .\workbook\models.py:143
+msgid "Tick this box if the submission is correct."
+msgstr "Setze diesen Haken, wenn die Abgabe korrekt ist."
+
+#: .\workbook\models.py:144
+msgid "awarded_points"
+msgstr "vergebene Punkte"
+
+#: .\workbook\models.py:144
+msgid ""
+"The points earned by the student for this submission. It is set once the "
+"submission is marked as correct and the student has claimed the points."
+msgstr ""
+"Die Punkte, die der Schüler oder die Schülerin für diese Abgabe erhalten "
+"hat. Wird automatisch festgelegt, sobald die Abgabe als gelöst markiert wird "
+"und die Belohnungen eingesammelt wurden."
+
+#: .\workbook\models.py:148
+msgid "submission_singular"
+msgstr "Abgabe"
+
+#: .\workbook\models.py:149
+msgid "submission_plural"
+msgstr "Abgaben"
+
+#: .\workbook\models.py:153
+msgid "selected_choices"
+msgstr "Ausgewählte Optionen"
+
+#: .\workbook\models.py:158
+msgid "submitted_answer"
+msgstr "Abgegebene Antwort"
+
+#: .\workbook\models.py:176
+msgid "current_action_count"
+msgstr "Anzahl aktueller Wiederholungen"

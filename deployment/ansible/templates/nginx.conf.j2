@@ -1,0 +1,61 @@
+server {
+    listen      80;
+    server_name _;
+    resolver 127.0.0.11 ipv6=off valid=10s;
+
+    # Identify which backend node processed this request — useful for load-balanced
+    # clusters to verify distribution and correlate logs with benchmark results.
+    add_header X-Served-By "{{ inventory_hostname }}" always;
+
+    location /admin {
+        try_files $uri @proxy_backend;
+    }
+    location /i18n/setlang/ {
+        try_files $uri @proxy_backend;
+    }
+    location /api {
+        try_files $uri @proxy_backend;
+    }
+    location @proxy_backend {
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Url-Scheme $scheme;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;
+        proxy_redirect off;
+        proxy_pass http://instaclone-backend:8000;
+    }
+
+    location /statics/ {
+        alias /var/www/static/;
+    }
+
+    location /media/ {
+        alias /var/www/media/;
+    }
+
+    location / {
+        try_files $uri @proxy_frontend;
+    }
+    location @proxy_frontend {
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Url-Scheme $scheme;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;
+        proxy_redirect off;
+        proxy_pass http://instaclone-frontend:5173;
+    }
+}
+
+
+server {
+    listen 80;
+    server_name info.instaclone.de;
+
+    location / {
+        root /information;
+        index index.html;
+    }
+
+}
+
+client_max_body_size 100M;
